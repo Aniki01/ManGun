@@ -1,3 +1,24 @@
-body{
-    background-color: black;
+header {
+    width: 100%;
+}
+
+header .bar-top {
+    width: 100%;
+    height: 120px;
+    background-image: linear-gradient(to right, #5585b5, #52a8b6) ;
+}
+
+header .bar-bottom {
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+}
+
+header .content {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.content_flex{
+    display: flex;
 }
